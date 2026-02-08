@@ -7,14 +7,14 @@
 header{
     background: linear-gradient(70deg, rgb(101, 60, 191), rgb(53, 106, 231), rgba(193, 87, 242));
     text-align: center;
-    border: 1px;
     height: 200px;
     width: auto;
     border-style: solid;
     border-radius: 10px;
     padding-top: 130px;
-    border-color: skyblue;
-    box-shadow: outset, 50px, 30px, black;
+    border-color: black;
+    box-shadow: 0 2px 2px black;
+    border: hidden;
 }
 header p, h1 {
     text-align: center;
@@ -26,10 +26,11 @@ header p, h1 {
     width: auto;
     border: 1px;
     border-style: solid;
-    border-color: skyblue;
+    border-color: black;
     display: inline-flex;
-    margin: 5px;
+    margin: 0;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 div {
     border: 1px;
@@ -44,5 +45,19 @@ div {
     width: auto;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 5px;
+    margin: 0;
+}
+.div3 {
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
+}
+.div4 {
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
 }
