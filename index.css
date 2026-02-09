@@ -1,63 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-* {
-    margin-top: 10px;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-}
-header{
-    background: linear-gradient(70deg, rgb(101, 60, 191), rgb(53, 106, 231), rgba(193, 87, 242));
-    text-align: center;
-    height: 200px;
-    width: auto;
-    border-style: solid;
-    border-radius: 10px;
-    padding-top: 130px;
-    border-color: black;
-    box-shadow: 0 2px 2px black;
-    border: hidden;
-}
-header p, h1 {
-    text-align: center;
-    font-weight: 700;
-    color: whitesmoke;
-}
-.div1 {
-    height: 300px;
-    width: auto;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    display: inline-flex;
-    margin: 0;
-    border-radius: 10px;
-    margin-bottom: 5px;
-}
-div {
-    border: 1px;
-    height: 250px;
-    width: 400px;
-    border-style: solid;
-    margin: 23px;
-    border-radius: 10px;
-}
-.div2 {
-    height: 300px;
-    width: auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 0;
-}
-.div3 {
-    height: 300px;
-    width: auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 0;
-}
-.div4 {
-    height: 300px;
-    width: auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 0;
+nav > ul > li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
 }
